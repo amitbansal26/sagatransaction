@@ -1,0 +1,14 @@
+temporal:
+  serviceAddress: "localhost:7233"
+  namespace: "default"
+server:
+  port: 9070
+
+logging:
+  level:
+    org.springframework.batch: info
+    org.springframework.batch.repeat: info
+    com.zaxxer.hikari: info
+    org.springframework.jdbc: debug
+    org.springframework.transaction: info
+    org.springframework.data.transaction: info
